@@ -11,12 +11,12 @@ If loaded as imgs, then imgs[0][25][25][0] contains a value like 181.0, which is
 (There are 80 of each. 17*80=1360)
 
 Best parameters thus far: 
-3 convolutional layers
-120 dense hidden layer neurons
-Adam with learning rate 1e-3 (default)
-Batch size 128
-1500 Epochs (images are augmented every epoch)
-Dropout after third pooling layer w/ rate 0.5
-Dropout after dense hidden layer w/ rate 0.5
+* 3 convolutional layers
+* 120 dense hidden layer neurons
+* Adam with learning rate 1e-3 (default)
+* Batch size 128
+* 1500 Epochs (images are augmented every epoch)
+* Dropout after third pooling layer w/ rate 0.5
+* Dropout after dense hidden layer w/ rate 0.5
 
-This should give a training accuracy of about 93~94% and a testing accuracy of 74~82%.
+This should give a training accuracy of about 93-94% and a testing accuracy of 74-82%.
